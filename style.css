@@ -1,0 +1,41 @@
+*{
+    margin: 5px;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+    background-image: url(./box\ model\ bg.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+P{
+    font-size: 50px;
+    color: rgb(229, 233, 236);
+    text-align: center;
+}
+.container{
+    display: flex;
+    color: gray;
+    width: 100%;
+    height: auto;
+    justify-content: center; 
+}
+.larger-box{
+    width: 800px;
+    height: 300px;
+    border: 2px solid rgb(14, 13, 13);
+    padding: 4px;
+}
+.container-2{
+    display: flex;
+    color: gray;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.box{
+    width: 260px;
+    height: 200px;
+    border: 2px solid rgb(19, 18, 18);
+    padding: 4px;
+}
